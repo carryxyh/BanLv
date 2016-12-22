@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="61dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:paddingTop="1dp"
+    >
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/linear1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/imb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/home1"
+            android:background="#ffffff"
+            android:clickable="false"
+            />
+        <TextView
+            android:text="首页"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/linear2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/imb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/zixun1"
+            android:background="#ffffff"
+            android:clickable="false"
+            />
+        <TextView
+            android:text="搜索"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/linear3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+    >
+    <ImageButton
+        android:id="@+id/imb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/sousuo1"
+        android:background="#ffffff"
+        android:clickable="false"
+        />
+    <TextView
+        android:text="组团信息"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:id="@+id/linear4"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/imb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gengduo1"
+            android:background="#ffffff"
+            android:clickable="false"
+            />
+        <TextView
+            android:text="我的功能"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

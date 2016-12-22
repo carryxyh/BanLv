@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:id="@+id/actionbar_layout"
+    android:layout_alignParentTop="true"
+    android:background="#ffe1fffd"
+    >
+
+    <TextView
+        android:paddingTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="主页"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:text="消息"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:textSize="18sp" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/menu_button"-->
+        <!--android:layout_width="76px"-->
+        <!--android:layout_height="76px"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="30px"-->
+        <!--android:layout_marginBottom="39px"-->
+        <!--android:src="@mipmap/nav_menubutton" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="76px"-->
+        <!--android:layout_height="76px"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="30px"-->
+        <!--android:layout_marginBottom="39px"-->
+        <!--android:src="@mipmap/nav_scan" />-->
+</RelativeLayout>

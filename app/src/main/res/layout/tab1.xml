@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe1fffd"
+    >
+    <SlidingMenu.SlideMenu
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <include layout="@layout/personalmenu"/>
+        <!--最顶上的切换图片以及下方的标题和小点-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <include layout="@layout/mainactivity" />
+    <include layout="@layout/includetab1_1"/>
+    <include layout="@layout/listtab1" />
+    </LinearLayout>
+    </LinearLayout>
+    </SlidingMenu.SlideMenu>
+</RelativeLayout>
